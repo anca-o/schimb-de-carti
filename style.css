@@ -35,3 +35,19 @@ a:hover {
   font-weight: bold;
   padding-left: 280px;
 }
+.books {
+  padding: 10px 10px 10px 10px;
+}
+.books p {
+  color: white;
+}
+.books h3 {
+  color: #660000;
+  font-size: 15px;
+  font-weight: bold;
+}
+.books .request-button {
+  background-color: #996633;
+  width: 150px;
+  padding: 5px 0 5px 0;
+}
