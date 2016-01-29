@@ -1,0 +1,37 @@
+body {
+  background-color: #cccccc;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.container {
+  background-color: #333333;
+  padding-bottom: 500px;
+}
+.container .menu {
+  background-color: #663300;
+  padding: 10px 0 10px 0;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #cccc99;
+  padding-left: 30px;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.motto {
+  background-color: #666666;
+  padding-top: 0;
+}
+.motto p {
+  text-align: center;
+  padding: 0 30px 0 30px;
+  margin-bottom: 2px;
+  line-height: 25px;
+}
+.motto span {
+  font-weight: bold;
+  padding-left: 280px;
+}
