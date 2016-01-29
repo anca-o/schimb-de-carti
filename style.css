@@ -37,6 +37,11 @@ a:hover {
 }
 .books {
   padding: 10px 10px 10px 10px;
+  width: 400px;
+}
+.books img {
+  float: left;
+  padding-right: 10px;
 }
 .books p {
   color: white;
@@ -47,6 +52,7 @@ a:hover {
   font-weight: bold;
 }
 .books .request-button {
+  float: left;
   background-color: #996633;
   width: 150px;
   padding: 5px 0 5px 0;
