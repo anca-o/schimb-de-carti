@@ -1,11 +1,12 @@
 body {
   background-color: #cccccc;
-  margin-left: 100px;
+  margin-left: 220px;
   margin-right: 100px;
 }
 .container {
-  background-color: #333333;
-  padding-bottom: 500px;
+  background-color: #736F6E;
+  width: 900px;
+  height: 750px;
 }
 .container .menu {
   background-color: #663300;
@@ -24,27 +25,31 @@ a:hover {
 .motto {
   background-color: #666666;
   padding-top: 0;
+  font-weight: bold;
+  color: #493D26;
 }
 .motto p {
   text-align: center;
+  font-family: cursive;
   padding: 0 30px 0 30px;
   margin-bottom: 2px;
   line-height: 25px;
 }
 .motto span {
-  font-weight: bold;
-  padding-left: 280px;
+  padding-left: 650px;
 }
 .books {
   padding: 10px 10px 10px 10px;
-  width: 400px;
 }
 .books img {
   float: left;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 .books p {
   color: white;
+}
+.books h1 {
+  font-size: 25px;
 }
 .books h3 {
   color: #660000;
@@ -56,4 +61,13 @@ a:hover {
   background-color: #996633;
   width: 150px;
   padding: 5px 0 5px 0;
+}
+.books .book-box {
+  display: block;
+  float: left;
+  width: 320px;
+  height: 250px;
+  padding: 15px;
+  margin: 10px 0 5px 55px;
+  border: 1px solid black;
 }
